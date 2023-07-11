@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Play Music</title>
+    <link rel="stylesheet" href="music.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <!-- navbar -->
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark navbar-style">
+        <a class="navbar-brand" href="#"><img class="logo" src="logo1.png" alt="logo"> <span>Musica</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#carouselExampleControls">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#review">Review</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- firstpage -->
+      <div class="container">
+        
+        <div class="song-list">
+          <h1 class="head-text">Best Of Underground Rappers!</h1>
+          <img class="song1" src="samjhmayakya.jpg" alt="1">
+          <span class="songname" id="0">Samjh mai aya kya(Emiway).mp3</span><span class="duration">4.33</span><i id="0" class="far fa-play-circle playbutton"></i>
+          <div class="song-list">
+            
+            <img class="song1" src="sheikhchilli.jpg" alt="1">
+            <span class="songname" id="1">Sheikh Chilli(Raftaar).mp3</span><span class="duration1">4.12</span><i id="1" class="far fa-play-circle  playbutton"></i>
+            <div class="song-list">
+              
+              <img class="song1" src="giraftaar.jpg" alt="1">
+              <span class="songname" id="2">Giraftaar(Emiway).mp3</span><span class="duration2">3.56</span><i id="2" class="far fa-play-circle  playbutton"></i>
+              <div class="song-list">
+                
+                <img class="song1" src="aweinhai.jpg" alt="1">
+                <span class="songname" id="3">Awein Hai(Raftaar).mp3</span><span class="duration3">4.33</span><i id="3" class="far fa-play-circle  playbutton"></i>
+                <div class="song-list">
+                  
+                  <img class="song1" src="khatam.jpg" alt="1">
+                  <span class="songname" id="4">Khatam(Emiway).mp3</span><span class="duration4">4.12</span><i id="4" class="far fa-play-circle  playbutton"></i>
+                  <div class="song-list">
+                
+                    <img class="song1" src="khuja.jpg" alt="1">
+                    <span class="songname" id="5">Khuja Mat(MC Stan).mp3</span><span class="duration5">5.00</span><i id="5" class="far fa-play-circle  playbutton"></i>
+                 
+                  </div>
+                  <div class="song-list">
+                
+                    <img class="song1" src="noshu.jpg" alt="1">
+                    <span class="songname" id="6">Nishu(Ikka).mp3</span><span class="duration6">3.32</span><i id="6" class="far fa-play-circle  playbutton"></i>
+                 
+                  </div>
+                  <div class="song-list">
+                
+                    <img class="song1" src="macha.jpg" alt="1">
+                    <span class="songname" id="7">Machaenge(Emiway).mp3</span><span class="duration7">2.32</span><i id="7" class="far fa-play-circle  playbutton"></i>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+        </div>
+        <!-- songplayer -->
+        <div class="song-image"></div>
+      </div>
+      <div class="bottom">
+        <input type="range" name="range" id="progressbar" min="0" value="0" max="100">
+        <div class="icons">
+          <i id="back" class="fas fa-3x fa-step-backward icon"></i>
+          <i id="masterplay" class="far fa-3x fa-play-circle icon"></i>
+          <i id="next" class="fas fa-3x fa-step-forward icon"></i>
+        
+        </div>
+        <div class="songinfo">
+          <img id="gif" class="playimg" src="play.gif" alt="" width="62px"><span id="masterSongname">Samjh mai aya kya(Emiway).mp3</span>
+        </div>
+         
+      </div>
+      <!-- featuring page -->
+      <div id="2" class="featuring">
+        <h2 class="head2">Featuring HipHop Stars</h2>
+      </div>
+      <div class="container2">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
+          <div class="carousel-inner">
+            <div class=" carousel-item active c-edit ">
+              <img class="d-block w-100  imgcara" src="emif.jpg" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="head3">Emiway</h2>
+                <p class="head3text">Emiway Bantai was born on 13 November 1995 (age 23 years; as in 2018) in Bengaluru, Karnataka, India. He was born as Bilal Shaikh in a middle-class orthodox Muslim Family. His family has roots in Karnataka. Later, he adopted the stage name “Emiway,” which is a combination of the names of Eminem and Lil Wayne, i.e., Emi from Eminem and Way from Wayne. He is a popular name within all the underground rappers.
+                  Emiway Bantai is a singer, rapper (Hip-Hop/Rap/RnB/PoP), dancer, songwriter, editor, and music composer. He is best known for his song “Asli Hip Hop” in the film “Gully Boy” (2019).</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 imgcara" src="mcc.jpg" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="head2">MC Stan</h2>
+                <p class="head3text">MC Stan is a well-known rapper who has dominated the Internet with his incredible rhymes. His tunes are really popular. Visit his YouTube page to see that he now has over 225 thousand subscribers. You’ll soon see him performing in motion pictures. His standing is getting better every day. He raps in Hindi and has his own unique style.
+
+                  MC Stan is a well-known Indian rapper, singer, composer, and writer who is most recognised for his incredible rap music.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 imgcara" src="i.jpg" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="head2">Ikka</h2>
+                <p class="head3text">Ankit Singh Patial popularly known as Ikka, is a renowned Singer, Rapper and Music Composer. He is a well-known personality in the field of the Punjabi Music Industry. In 2014, he entered the world of Bollywood with the song “In Da Club”, which was for the movie Tamanchey. The song In Da Club attracts quite a popularity for Ikka. Initially, Ikka was a part of a Hip-Hop band named Mafia Mundeer, where he worked with Raftaar, Badshah, Lil Golu and Yo Yo Honey Singh.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <!-- form -->
+      <div class="lastpage">
+        <h2 class="head3">Send Us your Ideas</h2>
+        <p class="head3text">We are creating an initiative for all the listeners who are much interested and devoted for the growing pop culture.Musica aims to provide you with all the songs that are popular within underground rappers.We have just started with this initiate and want your support through your reviews and suggestions.</p>
+      </div>
+      <div class="form4 top">
+        <div class="container3">
+            <div class="row">
+                <div class="col-md-7 col-md-offset-2">
+                    <div id="review" class="form-bg">
+                        <form class="form">
+                            <div class="form-group">
+                                <label class="sr-only">Name</label>
+                                <input type="text" class="form-control" required="" id="nameNine" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only">Email</label>
+                                <input type="email" class="form-control" required="" id="emailNine" placeholder="Email Address">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only"></label>
+                                <textarea class="form-control" required="" rows="7" id="messageNine" placeholder="Write your review"></textarea>
+                            </div>
+                            <button type="submit" class="btn text-center btn-blue bg-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footerpage -->
+    <footer>
+      
+      <h7>Copyright act under 1995</h7>
+    </footer>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://kit.fontawesome.com/42ac51f237.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="music.js"></script>
+  <script src="https://kit.fontawesome.com/42ac51f237.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
